@@ -57,7 +57,7 @@
 <body>
     <section id="signup" class="contact-section">
         <div class="container">
-            <h2 class="section-title">Get in Touch</h2>
+            <h2 class="section-title">Registration</h2>
             <form id="signupForm" class="contact-form" action="cible.php" method="POST">
                 <div class="form-group">
                     <label for="firstname">First Name</label>
