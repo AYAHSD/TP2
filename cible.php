@@ -68,7 +68,7 @@
         $gender = isset($_POST["gender"]) ? htmlspecialchars($_POST["gender"]) : "";
         $dob = isset($_POST["dob"]) ? htmlspecialchars($_POST["dob"]) : "";
         
-        // Display the same form but filled with submitted data
+       
         ?>
         <section id="signup" class="contact-section">
             <div class="container">
@@ -120,7 +120,7 @@
         </section>
         <?php
     } else {
-        // If form was not submitted, redirect to the form page
+        
         echo "<div class='container'><p>No form data submitted. <a href='index.php'>Go to the registration form</a>.</p></div>";
     }
     ?>
